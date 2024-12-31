@@ -12,4 +12,7 @@ class Notes
     public int CategoryId { get; set; }
     public string Title { get; set; }
     public string Content { get; set; }
+
+    public Users Users { get; set; }
+    public Categories Categories { get; set; }
 }
