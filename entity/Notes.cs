@@ -13,6 +13,6 @@ class Notes
     public string Title { get; set; }
     public string Content { get; set; }
 
-    public Users Users { get; set; }
-    public Categories Categories { get; set; }
+    public User User { get; set; }
+    public Category Category { get; set; }
 }

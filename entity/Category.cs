@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 [Table("categories")]
-class Categories
+class Category
 {
     [Key]
     public int CategoryId { get; set; }
@@ -10,6 +10,6 @@ class Categories
     public int UserId { get; set; }
     public string Name { get; set; }
 
-    public Users Users { get; set; }
+    public User User { get; set; }
     public ICollection<Notes> Notes { get; set; }
 }
